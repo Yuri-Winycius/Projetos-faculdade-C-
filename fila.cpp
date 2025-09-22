@@ -10,12 +10,12 @@ int main() {
     fila.push(20);
     fila.push(30);
 
-    cout << "Frente da fila: " << fila.front() << endl; // 10
-    cout << "Fim da fila: " << fila.back() << endl;     // 30
+    cout << "Frente da fila: " << fila.front() << endl;
+    cout << "Fim da fila: " << fila.back() << endl;   
 
     fila.pop(); 
 
-    cout << "Novo frente da fila: " << fila.front() << endl; // 20
+    cout << "Novo frente da fila: " << fila.front() << endl;
 
     // Percorrendo a fila
     cout << "\nPercorrendo fila: ";
